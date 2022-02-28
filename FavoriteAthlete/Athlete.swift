@@ -8,12 +8,11 @@
 import Foundation
 
 struct Athlete {
-    var fname: String
-    var lname: String
+    var name: String
     var age: Int
     var league: String
     var team: String
     var description: String {
-        return "\(fname) \(lname) is \(age) years old and plays for the \(team) in the \(league) league."
+        return "\(name) is \(age) years old and plays for the \(team) in the \(league) league."
     }
 }
