@@ -25,7 +25,7 @@ class AthleteTableViewController: UITableViewController {
         
         let athlete = athletes[indexPath.row]
         var content = cell.defaultContentConfiguration()
-        content.text = athlete.name
+        content.text = athlete.fname + " " + athlete.lname
         content.secondaryText = athlete.description
         cell.contentConfiguration = content
         
